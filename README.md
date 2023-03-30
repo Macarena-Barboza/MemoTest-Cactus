@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## MemoTest <sub><img src="https://media0.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif?cid=6c09b952c77b36b63d69f5db8149e0af702c3926e4335be5&rid=giphy.gif&ct=s" width="45" height="40" alt="reactjs" /></sub>
 
-## Getting Started
+Es un juego didáctico de memoria con la temática de Cactus, tiene un temporizador y esta compuesto por 3 niveles lo cual cada vez son mas complejo de memorizar ¡temina el juego antes de que se acabe el tiempo!
 
-First, run the development server:
+Este proyecto está realizado con :   <sub>
+<img src="public/assets/catito5 1.png"  width="20" height="35" alt="MemoTest"/>
+<img src="public/assets/catito3 1.png"  width="25" height="32" alt="MemoTest"/>
+<sub>
+<img src="public/assets/catito4 1.png"  width="15" height="44" alt="MemoTest"/>
+</sub>
+</sub>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+-   Next.js   <sub><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" width="34" height="20" alt="Sass" /></sub>
+-   TypeScript <sub><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="26" height="20" alt="Sass" /></sub>
+-   Sass  <sub><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="26" height="26" alt="Sass" /></sub>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="center"> 
+      <img src="public/assets/Miniatura memotest.jpg" alt="MemoTest"/>
+</div>
