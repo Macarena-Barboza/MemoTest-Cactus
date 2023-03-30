@@ -2,8 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import home from '@/styles/home.module.scss';
 import React, {useEffect, useState} from 'react';
-// import Modal from './component/Modal';
-// import ModalLose from './component/ModalLose';
+import Modal from './component/Modal';
+import ModalLose from './component/ModalLose';
 import getImages from './component/Card';
 import confetti from 'canvas-confetti';
 
@@ -101,13 +101,11 @@ export default function Home() {
                 <>
                     {time == 85000 ? (
                         <div>
-                            {/* <ModalLose /> */}
-                            PERDISTE
+                            <ModalLose />
                         </div>
                     ) : nivel === 13 ? (
                         <div className={home.alert__content}>
-                            {/* <Modal /> */}
-                            GANASTE
+                            <Modal />
                         </div>
                     ) : (
                         <>
