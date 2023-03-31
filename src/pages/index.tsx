@@ -53,7 +53,7 @@ export default function Home() {
     useEffect(() => {
         if (nivel === 13) {
             setTimeout(() => (nivel = 0), 1000);
-            setTimeout(() => location.reload(), 5000);
+            setTimeout(() => location.reload(), 3500);
             setTimerOn(false);
         }
     }, []);
@@ -80,7 +80,7 @@ export default function Home() {
     }, [timerOn]);
 
     useEffect(() => {
-        if (time == 85000) {
+        if (time == 86000) {
             setTimeout(() => location.reload(), 2500);
             setTimerOn(false);
         }
@@ -90,7 +90,10 @@ export default function Home() {
         <>
             <Head>
                 <title>MemoTest Cactus</title>
-                <meta name="description" content="Juego de memoria" />
+                <meta
+                    name="description"
+                    content="Es un juego didáctico de memoria con la temática de Cactus. memotest"
+                />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
@@ -99,7 +102,7 @@ export default function Home() {
             </Head>
             {
                 <>
-                    {time == 85000 ? (
+                    {time === 86000 ? (
                         <div>
                             <ModalLose />
                         </div>
